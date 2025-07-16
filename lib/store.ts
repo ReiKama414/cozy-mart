@@ -36,7 +36,7 @@ export interface Order {
   userId: string;
   items: CartItem[];
   total: number;
-  status: 'pending' | 'confirmed' | 'shipped' | 'delivered' | 'cancelled';
+  status: 'pending' | 'confirmed' | 'shipped' | 'delivered' | 'cancelled' | 'processing';
   createdAt: Date;
   shippingAddress: any;
   paymentMethod: string;

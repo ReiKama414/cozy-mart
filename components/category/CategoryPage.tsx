@@ -132,11 +132,11 @@ const CategoryPage = ({ categoryId }: CategoryPageProps) => {
 									{/* Other Filters */}
 									<div className="space-y-3">
 										<div className="flex items-center space-x-2">
-											<Checkbox checked={showOnSale} onCheckedChange={setShowOnSale} />
+											<Checkbox checked={showOnSale} onCheckedChange={(checked) => setShowOnSale(checked === true)} />
 											<label className="text-sm">On Sale</label>
 										</div>
 										<div className="flex items-center space-x-2">
-											<Checkbox checked={showInStock} onCheckedChange={setShowInStock} />
+											<Checkbox checked={showInStock} onCheckedChange={(checked) => setShowInStock(checked === true)} />
 											<label className="text-sm">In Stock</label>
 										</div>
 									</div>

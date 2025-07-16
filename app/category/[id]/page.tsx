@@ -1,10 +1,11 @@
 import ClientWrapper from "@/components/ClientWrapper";
 import CategoryPage from "@/components/category/CategoryPage";
 
-export default function Category({ params }: { params: { id: string } }) {
+export default async function Category({ params }: { params: Promise<{ id: string }> }) {
+	const resolvedParams = await params;
 	return (
 		<ClientWrapper>
-			<CategoryPage categoryId={params.id} />
+			<CategoryPage categoryId={resolvedParams.id} />
 		</ClientWrapper>
 	);
 }

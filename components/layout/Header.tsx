@@ -1,6 +1,6 @@
 "use client";
 
-import React, { useState } from "react";
+import React, { useEffect, useState } from "react";
 import Link from "next/link";
 import { motion, AnimatePresence } from "framer-motion";
 import { Search, ShoppingCart, User, Heart, Menu, X, MapPin, Bell } from "lucide-react";
@@ -15,6 +15,7 @@ const Header = () => {
 	const router = useRouter();
 	const [isSearchFocused, setIsSearchFocused] = useState(false);
 	const [isMobileMenuOpen, setIsMobileMenuOpen] = useState(false);
+	const [isMounted, setIsMounted] = useState(false);
 	const [searchQuery, setSearchQuery] = useState("");
 
 	const { getItemCount } = useCartStore();
@@ -22,6 +23,8 @@ const Header = () => {
 	const { wishlist, searchHistory, addToSearchHistory } = useAppStore();
 
 	const cartItemCount = getItemCount();
+
+	useEffect(() => setIsMounted(true), []);
 
 	const handleSearch = (query: string) => {
 		if (query.trim()) {
@@ -138,7 +141,7 @@ const Header = () => {
 
 						<Button onClick={() => router.push("/cart")} variant="ghost" size="icon" className="relative">
 							<ShoppingCart className="h-5 w-5" />
-							{cartItemCount > 0 && (
+							{isMounted && cartItemCount > 0 && (
 								<div className="absolute -top-1.5 -right-1.5 h-5 w-5 rounded-full bg-primary text-primary-foreground flex items-center justify-center text-xs font-bold shadow-md border border-white dark:border-zinc-950 transition-all scale-100">
 									{cartItemCount}
 								</div>

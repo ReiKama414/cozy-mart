@@ -8,14 +8,14 @@ import { Card, CardContent } from "@/components/ui/card";
 import { Input } from "@/components/ui/input";
 import { Separator } from "@/components/ui/separator";
 import { Badge } from "@/components/ui/badge";
-import { useCartStore } from "@/lib/store";
+import { Coupon, useCartStore } from "@/lib/store";
 import { coupons } from "@/lib/data";
 import Link from "next/link";
 
 const CartPage = () => {
 	const { items, updateQuantity, removeItem, getTotal, clearCart } = useCartStore();
 	const [couponCode, setCouponCode] = useState("");
-	const [appliedCoupon, setAppliedCoupon] = useState(null);
+	const [appliedCoupon, setAppliedCoupon] = useState<Coupon | null>(null);
 	const [isCheckingOut, setIsCheckingOut] = useState(false);
 
 	const subtotal = getTotal();

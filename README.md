@@ -103,6 +103,8 @@ The application uses Zustand for state management with three main stores:
 
 ## Data Flow
 
+> Parts of this documentation were generated with the assistance of GPT to streamline development and onboarding.
+
 The application uses mock data stored in `lib/data.ts` to simulate a real e-commerce backend:
 
 - **Products**: Complete product catalog with images, prices, and metadata
