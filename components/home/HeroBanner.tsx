@@ -97,13 +97,13 @@ const HeroBanner = () => {
               className="flex flex-col sm:flex-row gap-4 justify-center lg:justify-start"
             >
               <Link href="/products">
-                <Button size="lg" className="rounded-full px-8 group">
+                <Button asChild size="lg" className="rounded-full px-8 group">
                   Shop Collection
                   <ArrowRight className="ml-2 h-4 w-4 group-hover:translate-x-1 transition-transform" />
                 </Button>
               </Link>
               <Link href="/new">
-                <Button variant="outline" size="lg" className="rounded-full px-8">
+                <Button asChild variant="outline" size="lg" className="rounded-full px-8">
                   Discover New ✨
                 </Button>
               </Link>
