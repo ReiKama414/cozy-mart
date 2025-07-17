@@ -29,7 +29,7 @@ A beautiful, production-ready e-commerce platform built with Next.js, featuring 
 1. Clone the repository:
 
 ```bash
-git clone <repository-url>
+git clone https://github.com/ReiKama414/cozy-mart.git
 cd cozymart
 ```
 
