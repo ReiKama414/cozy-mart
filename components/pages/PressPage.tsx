@@ -249,10 +249,10 @@ const PressPage = () => {
 										</p>
 										<div className="space-y-1 text-sm">
 											<p>
-												<strong>Email:</strong> press@cozymart.com
+												<strong>Email:</strong> press@cozy.com
 											</p>
 											<p>
-												<strong>Phone:</strong> +81-3-1234-5678
+												<strong>Phone:</strong> +1 (414) 123-4567
 											</p>
 											<p>
 												<strong>Response Time:</strong> Within 24 hours
@@ -267,10 +267,10 @@ const PressPage = () => {
 										</p>
 										<div className="space-y-1 text-sm">
 											<p>
-												<strong>Email:</strong> partnerships@cozymart.com
+												<strong>Email:</strong> partnerships@cozy.com
 											</p>
 											<p>
-												<strong>Phone:</strong> +81-3-1234-5679
+												<strong>Phone:</strong> +1 (414) 123-4567
 											</p>
 										</div>
 									</div>

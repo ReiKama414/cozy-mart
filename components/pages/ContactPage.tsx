@@ -33,7 +33,7 @@ const ContactPage = () => {
 			icon: Phone,
 			title: "Phone Support",
 			description: "Speak directly with our team",
-			contact: "+1 (555) 123-4567",
+			contact: "+1 (414) 123-4567",
 			available: "9:00 AM - 6:00 PM JST",
 			color: "text-green-600",
 			bg: "bg-green-100",
