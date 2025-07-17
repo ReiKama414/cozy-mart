@@ -249,7 +249,7 @@ export const orders: Order[] = [
 		createdAt: new Date("2024-01-15"),
 		shippingAddress: {
 			name: "Demo User",
-			address: "123 Sakura Street",
+			address: "414 Sakura Street",
 			city: "Tokyo",
 			postalCode: "100-0001",
 		},
@@ -267,7 +267,7 @@ export const orders: Order[] = [
 		createdAt: new Date("2024-01-20"),
 		shippingAddress: {
 			name: "Demo User",
-			address: "123 Sakura Street",
+			address: "414 Sakura Street",
 			city: "Tokyo",
 			postalCode: "100-0001",
 		},
@@ -282,7 +282,7 @@ export const orders: Order[] = [
 		createdAt: new Date("2024-01-25"),
 		shippingAddress: {
 			name: "Demo User",
-			address: "123 Sakura Street",
+			address: "414 Sakura Street",
 			city: "Tokyo",
 			postalCode: "100-0001",
 		},
@@ -315,9 +315,9 @@ export const dashboardStats = {
 
 // Contact information
 export const contactInfo = {
-	email: "support@cozymart.com",
-	phone: "+81-3-1234-5678",
-	address: "123 Sakura Street, Shibuya, Tokyo 150-0001, Japan",
+	email: "support@cozy.com",
+	phone: "+1 (555) 123-4567",
+	address: "414 Sakura Street, Tokyo, Japan",
 	hours: {
 		weekdays: "9:00 AM - 6:00 PM JST",
 		weekends: "10:00 AM - 5:00 PM JST",
@@ -473,28 +473,28 @@ export const teamMembers = [
 		role: "Founder & CEO",
 		description: "Passionate about creating cozy spaces and sustainable living",
 		image: "https://images.pexels.com/photos/774909/pexels-photo-774909.jpeg?auto=compress&cs=tinysrgb&w=300",
-		email: "yuki@cozymart.com",
+		email: "yuki@cozy.com",
 	},
 	{
 		name: "Hiroshi Sato",
 		role: "Head of Product",
 		description: "Expert in sourcing the most comfortable and quality products",
 		image: "https://images.pexels.com/photos/697509/pexels-photo-697509.jpeg?auto=compress&cs=tinysrgb&w=300",
-		email: "hiroshi@cozymart.com",
+		email: "hiroshi@cozy.com",
 	},
 	{
 		name: "Sakura Yamamoto",
 		role: "Customer Experience",
 		description: "Dedicated to ensuring every customer feels valued and heard",
 		image: "https://images.pexels.com/photos/733872/pexels-photo-733872.jpeg?auto=compress&cs=tinysrgb&w=300",
-		email: "sakura@cozymart.com",
+		email: "sakura@cozy.com",
 	},
 	{
 		name: "Kenji Nakamura",
 		role: "Head of Design",
 		description: "Creating beautiful, user-friendly experiences for our customers",
 		image: "https://images.pexels.com/photos/1043471/pexels-photo-1043471.jpeg?auto=compress&cs=tinysrgb&w=300",
-		email: "kenji@cozymart.com",
+		email: "kenji@cozy.com",
 	},
 ];
 
