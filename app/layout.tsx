@@ -21,11 +21,11 @@ export const metadata: Metadata = {
 		title: "Cozy - Your Comfort Shopping Destination",
 		description:
 			"Discover cozy comfort for every corner of your life with our curated collection of home essentials, lifestyle products, and comfort-focused items.",
-		url: "https://cozy-mart.vercel.app",
+		url: "https://cozy-mart-rkm414.vercel.app",
 		siteName: "Cozy",
 		images: [
 			{
-				url: "https://cozy-mart.vercel.app/logo-transparent.png",
+				url: "https://cozy-mart-rkm414.vercel.app/logo-transparent.png",
 				width: 1200,
 				height: 630,
 				alt: "Cozy - Your Comfort Shopping Destination",
@@ -40,7 +40,7 @@ export const metadata: Metadata = {
 			"Discover cozy comfort for every corner of your life with our curated collection of home essentials, lifestyle products, and comfort-focused items.",
 		site: "@cozy_mart",
 		creator: "@cozy_mart",
-		images: ["https://cozy-mart.com/logo-transparent.png"],
+		images: ["https://cozy-mart-rkm414.com/logo-transparent.png"],
 	},
 	robots: {
 		index: true,
@@ -51,7 +51,7 @@ export const metadata: Metadata = {
 		statusBarStyle: "default",
 		startupImage: [
 			{
-				url: "https://cozy-mart.vercel.app/logo-transparent.png",
+				url: "https://cozy-mart-rkm414.vercel.app/logo-transparent.png",
 			},
 		],
 	},
