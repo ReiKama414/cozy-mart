@@ -120,11 +120,19 @@ const Footer = () => {
 							</div>
 							<div className="flex items-center space-x-2">
 								<Phone className="h-4 w-4 text-primary" />
-								<span>+1 (555) 123-4567</span>
+								<span>+1 (414) 123-4567</span>
 							</div>
 							<div className="flex items-center space-x-2">
 								<Mail className="h-4 w-4 text-primary" />
 								<span>hello@cozy.com</span>
+							</div>
+							<div className="flex items-center space-x-2">
+								<Link href="/privacy" className="text-primary hover:underline">
+									Privacy Policy
+								</Link>
+								<Link href="/terms" className="text-primary hover:underline">
+									Terms of Service
+								</Link>
 							</div>
 						</div>
 					</div>
