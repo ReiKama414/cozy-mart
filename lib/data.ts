@@ -4,7 +4,7 @@ import { Product, Order, Coupon } from "./store";
 export const products: Product[] = [
 	{
 		id: "1",
-		name: "Cozy Cloud Pillow 🌤️",
+		name: "Cozy Cloud Pillow",
 		price: 2980,
 		originalPrice: 3980,
 		image: "https://images.pexels.com/photos/1148955/pexels-photo-1148955.jpeg?auto=compress&cs=tinysrgb&w=500",
@@ -19,7 +19,7 @@ export const products: Product[] = [
 	},
 	{
 		id: "2",
-		name: "Minimalist Plant Pot 🌱",
+		name: "Minimalist Plant Pot",
 		price: 1580,
 		image: "https://images.pexels.com/photos/1099680/pexels-photo-1099680.jpeg?auto=compress&cs=tinysrgb&w=500",
 		category: "home",
@@ -32,7 +32,7 @@ export const products: Product[] = [
 	},
 	{
 		id: "3",
-		name: "Sunset Harmony Mug ☕",
+		name: "Sunset Harmony Mug",
 		price: 980,
 		originalPrice: 1280,
 		image: "https://images.pexels.com/photos/373639/pexels-photo-373639.jpeg?auto=compress&cs=tinysrgb&w=500",
@@ -47,9 +47,10 @@ export const products: Product[] = [
 	},
 	{
 		id: "4",
-		name: "Zen Garden Kit 🧘",
+		name: "Zen Garden Kit",
 		price: 3480,
-		image: "https://images.pexels.com/photos/3571264/pexels-photo-3571264.jpeg?auto=compress&cs=tinysrgb&w=500",
+		image:
+			"https://images.unsplash.com/photo-1676182123537-5c250a872ea3?q=80&w=870&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
 		category: "lifestyle",
 		description: "Complete zen garden set with sand, stones, and wooden rake for mindful meditation.",
 		rating: 4.7,
@@ -60,7 +61,7 @@ export const products: Product[] = [
 	},
 	{
 		id: "5",
-		name: "Kawaii Cat Lamp 🐱",
+		name: "Kawaii Cat Lamp",
 		price: 2680,
 		originalPrice: 3280,
 		image: "https://images.pexels.com/photos/1112598/pexels-photo-1112598.jpeg?auto=compress&cs=tinysrgb&w=500",
@@ -75,7 +76,7 @@ export const products: Product[] = [
 	},
 	{
 		id: "6",
-		name: "Artisan Tea Set 🍃",
+		name: "Artisan Tea Set",
 		price: 5980,
 		image: "https://images.pexels.com/photos/356056/pexels-photo-356056.jpeg?auto=compress&cs=tinysrgb&w=500",
 		category: "kitchen",
@@ -88,10 +89,11 @@ export const products: Product[] = [
 	},
 	{
 		id: "7",
-		name: "Fluffy Cloud Slippers ☁️",
+		name: "Fluffy Cloud Slippers",
 		price: 1980,
 		originalPrice: 2480,
-		image: "https://images.pexels.com/photos/1102769/pexels-photo-1102769.jpeg?auto=compress&cs=tinysrgb&w=500",
+		image:
+			"https://plus.unsplash.com/premium_photo-1732333561328-fb8ff00d3665?q=80&w=447&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
 		category: "fashion",
 		description: "Ultra-soft memory foam slippers that feel like walking on clouds.",
 		rating: 4.7,
@@ -103,10 +105,10 @@ export const products: Product[] = [
 	},
 	{
 		id: "8",
-		name: "Bamboo Desk Organizer 📝",
+		name: "Bamboo Desk Organizer",
 		price: 2380,
 		image:
-			"https://images.pexels.com/photos/159832/art-materials-brushes-rulers-scissors-159832.jpeg?auto=compress&cs=tinysrgb&w=500",
+			"https://plus.unsplash.com/premium_photo-1736505437580-7d2dfc89994e?q=80&w=870&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
 		category: "office",
 		description: "Sustainable bamboo desk organizer with multiple compartments for perfect organization.",
 		rating: 4.6,
@@ -117,7 +119,7 @@ export const products: Product[] = [
 	},
 	{
 		id: "9",
-		name: "Cozy Reading Blanket 📚",
+		name: "Cozy Reading Blanket",
 		price: 3980,
 		originalPrice: 4980,
 		image: "https://images.pexels.com/photos/1648776/pexels-photo-1648776.jpeg?auto=compress&cs=tinysrgb&w=500",
@@ -132,7 +134,7 @@ export const products: Product[] = [
 	},
 	{
 		id: "10",
-		name: "Ceramic Dinner Set 🍽️",
+		name: "Ceramic Dinner Set",
 		price: 7980,
 		image: "https://images.pexels.com/photos/1395964/pexels-photo-1395964.jpeg?auto=compress&cs=tinysrgb&w=500",
 		category: "kitchen",
@@ -145,7 +147,7 @@ export const products: Product[] = [
 	},
 	{
 		id: "11",
-		name: "Aromatherapy Diffuser 🌸",
+		name: "Aromatherapy Diffuser",
 		price: 4580,
 		originalPrice: 5580,
 		image: "https://images.pexels.com/photos/4041392/pexels-photo-4041392.jpeg?auto=compress&cs=tinysrgb&w=500",
@@ -160,7 +162,7 @@ export const products: Product[] = [
 	},
 	{
 		id: "12",
-		name: "Vintage Wall Clock ⏰",
+		name: "Vintage Wall Clock",
 		price: 2980,
 		image: "https://images.pexels.com/photos/1191710/pexels-photo-1191710.jpeg?auto=compress&cs=tinysrgb&w=500",
 		category: "decor",
@@ -173,7 +175,7 @@ export const products: Product[] = [
 	},
 	{
 		id: "13",
-		name: "Japanese Incense Set 🕯️",
+		name: "Japanese Incense Set",
 		price: 1680,
 		originalPrice: 2180,
 		image: "https://images.pexels.com/photos/4041392/pexels-photo-4041392.jpeg?auto=compress&cs=tinysrgb&w=500",
@@ -187,7 +189,7 @@ export const products: Product[] = [
 	},
 	{
 		id: "14",
-		name: "Soft Knit Throw 🧶",
+		name: "Soft Knit Throw",
 		price: 4280,
 		image: "https://images.pexels.com/photos/1648776/pexels-photo-1648776.jpeg?auto=compress&cs=tinysrgb&w=500",
 		category: "home",
@@ -200,7 +202,7 @@ export const products: Product[] = [
 	},
 	{
 		id: "15",
-		name: "Ceramic Rice Bowl Set 🍚",
+		name: "Ceramic Rice Bowl Set",
 		price: 3280,
 		image: "https://images.pexels.com/photos/1395964/pexels-photo-1395964.jpeg?auto=compress&cs=tinysrgb&w=500",
 		category: "kitchen",
@@ -213,7 +215,7 @@ export const products: Product[] = [
 	},
 	{
 		id: "16",
-		name: "Wooden Desk Lamp 💡",
+		name: "Wooden Desk Lamp",
 		price: 5680,
 		originalPrice: 6980,
 		image: "https://images.pexels.com/photos/1112598/pexels-photo-1112598.jpeg?auto=compress&cs=tinysrgb&w=500",
@@ -227,9 +229,10 @@ export const products: Product[] = [
 	},
 	{
 		id: "17",
-		name: "Meditation Cushion 🧘‍♀️",
+		name: "Meditation Cushion",
 		price: 2880,
-		image: "https://images.pexels.com/photos/3571264/pexels-photo-3571264.jpeg?auto=compress&cs=tinysrgb&w=500",
+		image:
+			"https://images.unsplash.com/photo-1597307509190-e33cb9fb3ff7?q=80&w=870&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
 		category: "lifestyle",
 		description: "Comfortable meditation cushion filled with buckwheat hulls for proper posture.",
 		rating: 4.7,
@@ -240,7 +243,7 @@ export const products: Product[] = [
 	},
 	{
 		id: "18",
-		name: "Ceramic Vase Collection 🏺",
+		name: "Ceramic Vase Collection",
 		price: 3680,
 		originalPrice: 4680,
 		image: "https://images.pexels.com/photos/1099680/pexels-photo-1099680.jpeg?auto=compress&cs=tinysrgb&w=500",
@@ -254,9 +257,10 @@ export const products: Product[] = [
 	},
 	{
 		id: "19",
-		name: "Organic Cotton Pajamas 👘",
+		name: "Organic Cotton Pajamas",
 		price: 4980,
-		image: "https://images.pexels.com/photos/1102769/pexels-photo-1102769.jpeg?auto=compress&cs=tinysrgb&w=500",
+		image:
+			"https://images.unsplash.com/photo-1713881676551-b16f22ce4719?q=80&w=387&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
 		category: "fashion",
 		description: "Soft organic cotton pajama set with traditional Japanese-inspired design.",
 		rating: 4.8,
@@ -267,11 +271,11 @@ export const products: Product[] = [
 	},
 	{
 		id: "20",
-		name: "Bamboo Kitchen Utensils 🥢",
+		name: "Bamboo Kitchen Utensils",
 		price: 1880,
 		originalPrice: 2380,
 		image:
-			"https://images.pexels.com/photos/159832/art-materials-brushes-rulers-scissors-159832.jpeg?auto=compress&cs=tinysrgb&w=500",
+			"https://images.unsplash.com/photo-1660002666905-71f93b74a287?q=80&w=871&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
 		category: "kitchen",
 		description: "Complete set of bamboo kitchen utensils including spatulas, spoons, and chopsticks.",
 		rating: 4.6,
@@ -279,6 +283,75 @@ export const products: Product[] = [
 		stock: 67,
 		tags: ["bamboo", "eco-friendly", "kitchen-set"],
 		discount: 21,
+	},
+	{
+		id: "21",
+		name: "Nordic Wool Blanket",
+		price: 4280,
+		originalPrice: 5280,
+		image: "https://images.pexels.com/photos/1125133/pexels-photo-1125133.jpeg?auto=compress&cs=tinysrgb&w=500",
+		category: "home",
+		description: "Cozy wool blanket inspired by Nordic patterns, perfect for chilly nights.",
+		rating: 4.8,
+		reviews: 311,
+		stock: 38,
+		tags: ["wool", "nordic", "warm"],
+		isHot: true,
+		discount: 19,
+	},
+	{
+		id: "22",
+		name: "Marble Serving Tray",
+		price: 2480,
+		image: "https://images.pexels.com/photos/1571470/pexels-photo-1571470.jpeg?auto=compress&cs=tinysrgb&w=500",
+		category: "kitchen",
+		description: "Elegant marble tray suitable for serving tea, desserts, or décor.",
+		rating: 4.6,
+		reviews: 97,
+		stock: 21,
+		tags: ["marble", "serving", "elegant"],
+		isNew: true,
+	},
+	{
+		id: "23",
+		name: "Origami Paper Lamp",
+		price: 3280,
+		image: "https://images.pexels.com/photos/189333/pexels-photo-189333.jpeg?auto=compress&cs=tinysrgb&w=500",
+		category: "decor",
+		description: "Artistic paper lamp inspired by Japanese origami design. Soft ambient lighting.",
+		rating: 4.7,
+		reviews: 158,
+		stock: 17,
+		tags: ["origami", "paper", "soft-light"],
+		isNew: true,
+	},
+	{
+		id: "24",
+		name: "Ergonomic Office Chair",
+		price: 10800,
+		image: "https://images.pexels.com/photos/116675/pexels-photo-116675.jpeg?auto=compress&cs=tinysrgb&w=500",
+		category: "office",
+		description: "Adjustable office chair with lumbar support and breathable mesh back.",
+		rating: 4.9,
+		reviews: 214,
+		stock: 9,
+		tags: ["ergonomic", "adjustable", "mesh"],
+		isHot: true,
+		discount: 15,
+	},
+	{
+		id: "25",
+		name: "Linen Sleepwear Set",
+		price: 4680,
+		image:
+			"https://images.unsplash.com/photo-1663247131274-ecbf38ec087c?q=80&w=870&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+		category: "fashion",
+		description: "Breathable linen pajama set designed for maximum comfort and natural feel.",
+		rating: 4.8,
+		reviews: 187,
+		stock: 42,
+		tags: ["linen", "breathable", "sleepwear"],
+		isNew: true,
 	},
 ];
 

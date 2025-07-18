@@ -81,7 +81,7 @@ const Footer = () => {
 			<div className="container mx-auto px-4 py-12">
 				<div className="text-center max-w-2xl mx-auto">
 					<motion.div initial={{ opacity: 0, y: 20 }} whileInView={{ opacity: 1, y: 0 }} className="mb-8">
-						<h2 className="text-2xl font-bold mb-4">Stay in the Loop 💌</h2>
+						<h2 className="text-2xl font-bold mb-4">Stay in the Loop</h2>
 						<p className="text-muted-foreground mb-6">
 							Get the latest updates on new arrivals, exclusive offers, and cozy lifestyle tips!
 						</p>

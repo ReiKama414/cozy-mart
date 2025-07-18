@@ -105,7 +105,7 @@ const AboutPage = () => {
 						<span className="text-pink-700 font-semibold">About Us</span>
 					</div>
 
-					<h1 className="text-4xl md:text-5xl font-bold mb-6">🏠 Creating Cozy Moments, One Home at a Time</h1>
+					<h1 className="text-4xl md:text-5xl font-bold mb-6">Creating Cozy Moments, One Home at a Time</h1>
 
 					<p className="text-muted-foreground max-w-3xl mx-auto text-lg leading-relaxed">
 						At CozyMart, we believe that everyone deserves a space that feels like a warm hug. Since 2020, we've been

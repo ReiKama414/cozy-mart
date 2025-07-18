@@ -179,7 +179,7 @@ const SizeGuidePage = () => {
 
 								<Card>
 									<CardContent className="p-6">
-										<h3 className="font-semibold text-lg mb-4 flex items-center">🏠 Rugs & Mats</h3>
+										<h3 className="font-semibold text-lg mb-4 flex items-center">Rugs & Mats</h3>
 										<div className="space-y-3">
 											{homeSizes.rugs.map((item, index) => (
 												<div key={index} className="border-b pb-3 last:border-b-0">

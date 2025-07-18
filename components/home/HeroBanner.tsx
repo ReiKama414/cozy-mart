@@ -76,7 +76,7 @@ const HeroBanner = () => {
 							<br />
 							<span className="text-foreground">for Every</span>
 							<br />
-							<span className="text-primary">Corner 🏠</span>
+							<span className="text-primary">Corner</span>
 						</motion.h1>
 
 						<motion.p
@@ -93,12 +93,12 @@ const HeroBanner = () => {
 							animate={{ opacity: 1, y: 0 }}
 							transition={{ delay: 0.5 }}
 							className="flex flex-col sm:flex-row gap-4 justify-center lg:justify-start">
-							<Button onClick={() => router.push("/products")} size="lg" className="rounded-full px-8 group">
+							<Button onClick={() => router.push("/product")} size="lg" className="rounded-full px-8 group">
 								Shop Collection
 								<ArrowRight className="ml-2 h-4 w-4 group-hover:translate-x-1 transition-transform" />
 							</Button>
 							<Button onClick={() => router.push("/new")} variant="outline" size="lg" className="rounded-full px-8">
-								Discover New ✨
+								Discover New
 							</Button>
 						</motion.div>
 

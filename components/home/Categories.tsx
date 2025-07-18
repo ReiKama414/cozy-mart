@@ -38,7 +38,7 @@ const Categories = () => {
           className="text-center mb-12"
         >
           <h2 className="text-3xl md:text-4xl font-bold mb-4">
-            Shop by Category ✨
+            Shop by Category
           </h2>
           <p className="text-muted-foreground max-w-2xl mx-auto">
             Discover your perfect comfort zone with our carefully curated collections 
@@ -89,7 +89,7 @@ const Categories = () => {
               <div className="grid grid-cols-1 lg:grid-cols-2 gap-8 items-center">
                 <div>
                   <h3 className="text-2xl md:text-3xl font-bold mb-4">
-                    🏠 Create Your Cozy Corner
+                    Create Your Cozy Corner
                   </h3>
                   <p className="text-muted-foreground mb-6">
                     Everything you need to transform any space into your personal sanctuary. 

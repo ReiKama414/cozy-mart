@@ -53,13 +53,13 @@ const Header = () => {
 						<Button
 							variant="ghost"
 							size="icon"
-							className="md:hidden"
+							className="lg:hidden"
 							onClick={() => setIsMobileMenuOpen(!isMobileMenuOpen)}>
 							{isMobileMenuOpen ? <X /> : <Menu />}
 						</Button>
 
 						{/* Logo */}
-						<Link href="/" className="flex items-center space-x-2">
+						<Link href="/" className="flex items-center space-x-2 md:w-auto w-full">
 							<motion.div
 								className="w-8 h-8 bg-gradient-to-br from-primary to-accent rounded-lg flex items-center justify-center"
 								whileHover={{ scale: 1.05 }}
@@ -70,7 +70,7 @@ const Header = () => {
 						</Link>
 
 						{/* Search bar */}
-						<div className="flex-1 max-w-xl relative">
+						<div className="flex-1 max-w-xl relative md:block hidden">
 							<div className="relative">
 								<Search className="absolute left-3 top-1/2 transform -translate-y-1/2 text-muted-foreground h-4 w-4" />
 								<Input
@@ -170,7 +170,7 @@ const Header = () => {
 					</div>
 
 					{/* Desktop navigation */}
-					<nav className="hidden md:flex items-center justify-between mt-4 pt-4 border-t">
+					<nav className="hidden lg:flex items-center justify-between mt-4 pt-4 border-t">
 						<div className="flex items-center space-x-6">
 							{categories.map((category) => (
 								<Link
@@ -211,7 +211,7 @@ const Header = () => {
 							initial={{ opacity: 0, height: 0 }}
 							animate={{ opacity: 1, height: "auto" }}
 							exit={{ opacity: 0, height: 0 }}
-							className="md:hidden border-t bg-background">
+							className="lg:hidden border-t bg-background">
 							<nav className="container mx-auto px-4 py-4 space-y-4">
 								{categories.map((category) => (
 									<Link

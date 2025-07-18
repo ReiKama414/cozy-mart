@@ -45,7 +45,7 @@ const NotFoundPage = () => {
 					<motion.div initial={{ opacity: 0, y: 20 }} animate={{ opacity: 1, y: 0 }} transition={{ delay: 0.4 }}>
 						<h1 className="text-3xl md:text-4xl font-bold mb-4">Oops! Page Not Found</h1>
 						<p className="text-lg text-muted-foreground mb-8 max-w-md mx-auto">
-							The cozy corner you're looking for seems to have wandered off. Let's help you find your way back home! 🏠
+							The cozy corner you're looking for seems to have wandered off. Let's help you find your way back home! 
 						</p>
 					</motion.div>
 
@@ -75,16 +75,16 @@ const NotFoundPage = () => {
 						<p className="text-sm text-muted-foreground mb-4">Or explore these popular sections:</p>
 						<div className="flex flex-wrap justify-center gap-4">
 							<Link href="/new" className="text-sm text-primary hover:underline">
-								New Arrivals ✨
+								New Arrivals
 							</Link>
 							<Link href="/bestsellers" className="text-sm text-primary hover:underline">
-								Best Sellers 🔥
+								Best Sellers
 							</Link>
 							<Link href="/sale" className="text-sm text-primary hover:underline">
-								Sale Items 💰
+								Sale Items
 							</Link>
 							<Link href="/category/home" className="text-sm text-primary hover:underline">
-								Home & Living 🏠
+								Home & Living
 							</Link>
 						</div>
 					</motion.div>

@@ -32,7 +32,7 @@ const NewArrivalsPage = () => {
 						<span className="text-green-700 font-semibold">New Arrivals</span>
 					</div>
 
-					<h1 className="text-4xl md:text-5xl font-bold mb-4">✨ Fresh & New</h1>
+					<h1 className="text-4xl md:text-5xl font-bold mb-4">Fresh & New</h1>
 
 					<p className="text-muted-foreground max-w-2xl mx-auto text-lg">
 						Discover the latest additions to our cozy collection. Each item is carefully selected to bring comfort and
@@ -56,7 +56,7 @@ const NewArrivalsPage = () => {
 											alt={newArrivals[0].name}
 											className="w-full h-80 lg:h-96 object-cover"
 										/>
-										<Badge className="absolute top-4 left-4 bg-green-500 hover:bg-green-600">✨ Just Arrived</Badge>
+										<Badge className="absolute top-4 left-4 bg-green-500 hover:bg-green-600">Just Arrived</Badge>
 									</div>
 
 									<div className="p-8 lg:p-12 flex flex-col justify-center">
@@ -125,7 +125,7 @@ const NewArrivalsPage = () => {
 											/>
 										</Link>
 
-										<Badge className="absolute top-2 left-2 bg-green-500 hover:bg-green-600">✨ New</Badge>
+										<Badge className="absolute top-2 left-2 bg-green-500 hover:bg-green-600">New</Badge>
 
 										<Button
 											variant="ghost"

@@ -111,9 +111,9 @@ const ProductPage = ({ productId }: ProductPageProps) => {
 
 							{/* Badges */}
 							<div className="absolute top-4 left-4 flex flex-col gap-2">
-								{product.isHot && <Badge className="bg-red-500 hover:bg-red-600">🔥 Hot</Badge>}
-								{product.isNew && <Badge className="bg-green-500 hover:bg-green-600">✨ New</Badge>}
-								{product.discount && <Badge className="bg-orange-500 hover:bg-orange-600">-{product.discount}%</Badge>}
+								{product.isHot && <Badge className="bg-red-500 hover:bg-red-600 w-max">Hot</Badge>}
+								{product.isNew && <Badge className="bg-green-500 hover:bg-green-600 w-max">New</Badge>}
+								{product.discount && <Badge className="bg-orange-500 hover:bg-orange-600 w-max">-{product.discount}%</Badge>}
 							</div>
 
 							{/* Share button */}
@@ -358,7 +358,7 @@ const ProductPage = ({ productId }: ProductPageProps) => {
 				{/* Related Products */}
 				{relatedProducts.length > 0 && (
 					<motion.div initial={{ opacity: 0, y: 30 }} animate={{ opacity: 1, y: 0 }} transition={{ delay: 0.4 }}>
-						<h2 className="text-2xl font-bold mb-8">You might also like ✨</h2>
+						<h2 className="text-2xl font-bold mb-8">You might also like</h2>
 						<div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-6">
 							{relatedProducts.map((relatedProduct, index) => (
 								<motion.div

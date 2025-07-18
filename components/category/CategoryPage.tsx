@@ -28,8 +28,15 @@ const CategoryPage = ({ categoryId }: CategoryPageProps) => {
 	const { addItem } = useCartStore();
 	const { wishlist, addToWishlist, removeFromWishlist } = useAppStore();
 
-	const category = categories.find((c) => c.id === categoryId);
-	const categoryProducts = products.filter((p) => p.category === categoryId);
+	// const category = categories.find((c) => c.id === categoryId);
+	// const categoryProducts = products.filter((p) => p.category === categoryId);
+
+	const category =
+		categoryId === "all"
+			? { id: "all", name: "All Products", emoji: "🛍️" }
+			: categories.find((c) => c.id === categoryId);
+
+	const categoryProducts = categoryId === "all" ? products : products.filter((p) => p.category === categoryId);
 
 	const filteredProducts = useMemo(() => {
 		let filtered = categoryProducts.filter((product) => {
@@ -208,10 +215,10 @@ const CategoryPage = ({ categoryId }: CategoryPageProps) => {
 
 											{/* Badges */}
 											<div className="absolute top-2 left-2 flex flex-col gap-1">
-												{product.isHot && <Badge className="bg-red-500 hover:bg-red-600">🔥 Hot</Badge>}
-												{product.isNew && <Badge className="bg-green-500 hover:bg-green-600">✨ New</Badge>}
+												{product.isHot && <Badge className="bg-red-500 hover:bg-red-600 w-max">Hot</Badge>}
+												{product.isNew && <Badge className="bg-green-500 hover:bg-green-600 w-max">New</Badge>}
 												{product.discount && (
-													<Badge className="bg-orange-500 hover:bg-orange-600">-{product.discount}%</Badge>
+													<Badge className="bg-orange-500 hover:bg-orange-600 w-max">-{product.discount}%</Badge>
 												)}
 											</div>
 

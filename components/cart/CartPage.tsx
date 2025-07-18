@@ -101,7 +101,7 @@ const CartPage = () => {
 														alt={item.product.name}
 														className="w-full md:w-24 h-48 md:h-24 object-cover rounded-lg"
 													/>
-													{item.product.isHot && <Badge className="absolute top-2 left-2 bg-red-500">🔥 Hot</Badge>}
+													{item.product.isHot && <Badge className="absolute top-2 left-2 bg-red-500">Hot</Badge>}
 												</div>
 
 												<div className="flex-1">
