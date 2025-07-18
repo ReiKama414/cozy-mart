@@ -3,7 +3,20 @@
 import React from "react";
 import Link from "next/link";
 import { motion } from "framer-motion";
-import { Heart, Mail, Phone, MapPin, Instagram, Twitter, Facebook, Leaf, Shield, Truck, Gift } from "lucide-react";
+import {
+	Heart,
+	Mail,
+	Phone,
+	MapPin,
+	Instagram,
+	Twitter,
+	Facebook,
+	Leaf,
+	Shield,
+	Truck,
+	Gift,
+	Github,
+} from "lucide-react";
 import { Button } from "@/components/ui/button";
 import { Input } from "@/components/ui/input";
 import { Separator } from "@/components/ui/separator";
@@ -195,6 +208,13 @@ const Footer = () => {
 							ReiKama414
 						</Link>
 						. All rights reserved.
+						<Link
+							href="https://github.com/ReiKama414/cozy-mart"
+							target="_blank"
+							rel="noopener noreferrer"
+							className="text-sm text-muted-foreground hover:text-primary transition-colors ps-2">
+							<Github className="h-5 w-5" />
+						</Link>
 					</div>
 
 					<div className="flex items-center space-x-4">
